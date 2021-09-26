@@ -1,0 +1,38 @@
+:root {
+  --primary-color: #1e3a8a;
+  --secondary-color: #dbeafe;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+  max-width: 50%;
+}
+
+.container {
+  border: 1px solid black;
+  margin: 1rem 0rem;
+  background-color: var(--secondary-color);
+}
+.container-list {
+  list-style-type: none;
+  background-color: var(--secondary-color);
+}
+.box-list {
+  border: 1px solid black;
+  margin: 1rem 1rem;
+}
+button {
+  margin: 0rem 0.5rem;
+  font-size: large;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+h1 {
+  color: white;
+}
